@@ -64,3 +64,6 @@ genfscon proc /sys/kernel/sched_energy_aware u:object_r:proc_sched_energy_aware:
 
 # USB
 genfscon sysfs /devices/platform/soc/a600000.ssusb/usb_data_enabled                  u:object_r:sysfs_usb_data_enabled:s0
+
+# FPS Info
+genfscon sysfs /class/drm/card0/sde-crtc-0/measured_fps    u:object_r:vendor_sysfs_graphics:s0
