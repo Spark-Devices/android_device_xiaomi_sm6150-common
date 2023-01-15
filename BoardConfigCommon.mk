@@ -22,6 +22,7 @@ COMMON_PATH := device/xiaomi/sm6150-common
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
 BUILD_BROKEN_DUP_RULES := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Architecture
 TARGET_ARCH := arm64
