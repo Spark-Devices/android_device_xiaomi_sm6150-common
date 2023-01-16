@@ -21,9 +21,6 @@ COMMON_PATH := device/xiaomi/sm6150-common
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
-# MiuiCamera
-include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
-
 BUILD_BROKEN_DUP_RULES := true
 SELINUX_IGNORE_NEVERALLOWS := true
 
